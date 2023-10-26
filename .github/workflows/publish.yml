@@ -35,4 +35,4 @@ jobs:
       - run: |
             gh workflow run 'Update dependencies' --repo kamka427/my-ws-app
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.MY_PAT }}
