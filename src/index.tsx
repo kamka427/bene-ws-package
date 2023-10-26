@@ -1,2 +1,2 @@
-export {default as Heading} from './Components/Heading' 
+export {default as Heading} from './Components/Heading/Heading' 
 
