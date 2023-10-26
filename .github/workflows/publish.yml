@@ -33,6 +33,7 @@ jobs:
 
       - run: git push
       - run: |
-            gh workflow run 'Update dependencies' --repo kamka427/my-ws-app
+          gh workflow run 'Update dependencies' --repo kamka427/my-ws-app
+          gh workflow run 'Build storybook'
         env:
-            GITHUB_TOKEN: ${{ secrets.MY_PAT }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
